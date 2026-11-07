@@ -3,7 +3,7 @@ from datetime import date
 from pytxc import Timetable
 from pytxc.services import DayOfWeek
 from functions import parse_run_time
-from busbuddy.bodsdao import journey 
+from bods_experiments.bodsdao import journey 
 import sys
 import re
 

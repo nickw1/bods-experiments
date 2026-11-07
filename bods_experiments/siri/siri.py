@@ -10,7 +10,7 @@ import psycopg
 import os
 from zoneinfo import ZoneInfo
 from dotenv import load_dotenv
-from busbuddy.bodsdao import journey
+from bods_experiments.bodsdao import journey
 
 # activity.monitored_vehicle_journey.framed_vehicle_journey_ref.dated_vehicle_journey_ref
 

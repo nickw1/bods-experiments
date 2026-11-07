@@ -1,6 +1,6 @@
-# busbuddy
+# bods-experiments
 
-`busbuddy` is the working name for an investigative project to provide improved bus tracking in the UK, making use of [Bus Open Data Service](https://data.bus-data.dft.gov.uk) (BODS) data.
+This is an investigative project to examine the possibility of improved bus tracking in the UK, making use of [Bus Open Data Service](https://data.bus-data.dft.gov.uk) (BODS) data.
 
 ## Why?
 
@@ -46,15 +46,15 @@ The repo contains various programs within the directories:
 
 ## To install
 
-`busbuddy` is designed to be installed as a local package. Use 
+`bods-experiments` is designed to be installed as a local package. Use 
 ```
 pip3 install .
 ```
-to install all dependencies and install `busbuddy` as a local package.
+to install all dependencies and install `bods_experiments` (note underscore in package name) as a local package.
 
 ## Also available
 
-[busbuddy-server](https://github.com/nickw1/busbuddy-server), a simple Express server which gets live SIRI data and returns the entire working a particular journey belongs to. Works with the fully populated database from the suite of tools above.
+[bods-experiments-server](https://github.com/nickw1/bods-experiments-server), a simple Express server which gets live SIRI data and returns the entire working a particular journey belongs to. Works with the fully populated database from the suite of tools above.
 
 ## Thanks
 
